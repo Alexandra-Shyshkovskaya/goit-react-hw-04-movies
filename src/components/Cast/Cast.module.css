@@ -1,0 +1,18 @@
+.cast {
+  color: rgb(10, 83, 83);
+  margin-left: 50px;
+  font-size: 22px;
+}
+
+.castList {
+  display: grid;
+  max-width: calc(100vw - 30px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}

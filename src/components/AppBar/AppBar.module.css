@@ -1,0 +1,22 @@
+.list {
+  display: flex;
+  border-bottom: 1px solid rgb(64, 199, 116);
+  box-shadow: 0px 8px 8px 1px rgba(10, 216, 96, 0.2);
+  padding-bottom: 20px;
+  list-style: none;
+  background-color: rgb(186, 238, 218);
+}
+
+.list__item {
+  margin-right: 50px;
+  padding-top: 10px;
+}
+
+.navLink {
+  color: rgb(21, 82, 48);
+  font-size: 22px;
+}
+
+.navLinkActive {
+  color: rgb(0, 4, 255);
+}
